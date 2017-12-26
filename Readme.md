@@ -12,3 +12,8 @@ $ docker ps
 $ docker inspect alpine
 $ docker kill alpine
 $ docker rmi alpine
+
+$ docker build .
+$ docker build -t image_name .
+$ docker build -t image_name -f Dockerfile_name .
+$ docker tag image_id new-tag-name-that-you-like
